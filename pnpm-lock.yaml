@@ -29,10 +29,10 @@ importers:
         version: 1.2.0
       '@rsbuild/core':
         specifier: ^1.1.8
-        version: 1.1.10
+        version: 1.1.11
       '@rsbuild/plugin-react':
         specifier: ^1.0.7
-        version: 1.1.0(@rsbuild/core@1.1.10)
+        version: 1.1.0(@rsbuild/core@1.1.11)
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -274,8 +274,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@rsbuild/core@1.1.10':
-    resolution: {integrity: sha512-G0aVnoMSIZ4PNcW07tKtsOSoID9M03EAnCThRmUWMj1RXDqhbGje6AFBwGun9uz63bdxYEbEp9C8wH7dGi8aYQ==}
+  '@rsbuild/core@1.1.11':
+    resolution: {integrity: sha512-PZM7yRt6noWycYi2h22QsOQ2VU4bBBgthOblVdu7HKoEM8GwYvVImKd9oNOF5Y5WJLS0TVAkU90DelNttnnQiw==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -2018,16 +2018,16 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@rsbuild/core@1.1.10':
+  '@rsbuild/core@1.1.11':
     dependencies:
       '@rspack/core': 1.1.8(@swc/helpers@0.5.15)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
-  '@rsbuild/plugin-react@1.1.0(@rsbuild/core@1.1.10)':
+  '@rsbuild/plugin-react@1.1.0(@rsbuild/core@1.1.11)':
     dependencies:
-      '@rsbuild/core': 1.1.10
+      '@rsbuild/core': 1.1.11
       '@rspack/plugin-react-refresh': 1.0.1(react-refresh@0.16.0)
       react-refresh: 0.16.0
 
